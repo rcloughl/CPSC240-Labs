@@ -1,0 +1,124 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Search {
+    public static void main(String args[]) {
+        // create a test set
+        Set names = new Set();
+
+        // add 100 random names
+        names.add("Santiago");
+        names.add("Darcel");
+        names.add("Illa");
+        names.add("Myrta");
+        names.add("Greg");
+        names.add("Annabell");
+        names.add("Lonnie");
+        names.add("Ramona");
+        names.add("Pearl");
+        names.add("Jaqueline");
+        names.add("Winnifred");
+        names.add("Roland");
+        names.add("Alysa");
+        names.add("Hilda");
+        names.add("Jeanett");
+        names.add("Kimberly");
+        names.add("Annalee");
+        names.add("Deane");
+        names.add("Brittani");
+        names.add("Natacha");
+        names.add("Herta");
+        names.add("Giovanna");
+        names.add("Tressa");
+        names.add("Morton");
+        names.add("Ela");
+        names.add("Chante");
+        names.add("Melani");
+        names.add("Omega");
+        names.add("Roman");
+        names.add("Rashida");
+        names.add("Myles");
+        names.add("Devorah");
+        names.add("Luther");
+        names.add("Annette");
+        names.add("Tessa");
+        names.add("Darryl");
+        names.add("Thad");
+        names.add("Freda");
+        names.add("Laurence");
+        names.add("Asa");
+        names.add("Burma");
+        names.add("Lila");
+        names.add("Tierra");
+        names.add("Idell");
+        names.add("Ninfa");
+        names.add("Denae");
+        names.add("Randy");
+        names.add("Milan");
+        names.add("Karey");
+        names.add("Carter");
+        names.add("Arlette");
+        names.add("Estela");
+        names.add("Dacia");
+        names.add("Cory");
+        names.add("Leatrice");
+        names.add("Maura");
+        names.add("Tiana");
+        names.add("Billy");
+        names.add("Brittany");
+        names.add("Kendall");
+        names.add("Merri");
+        names.add("Liane");
+        names.add("Simone");
+        names.add("Hilaria");
+        names.add("Neely");
+        names.add("Jeromy");
+        names.add("Kiyoko");
+        names.add("Alta");
+        names.add("Lucien");
+        names.add("Patria");
+        names.add("Alphonso");
+        names.add("Jenae");
+        names.add("Sanda");
+        names.add("Suk");
+        names.add("Berry");
+        names.add("Terry");
+        names.add("Wei");
+        names.add("Milagros");
+        names.add("Adrianne");
+        names.add("Dusti");
+        names.add("Ivy");
+        names.add("Cyndi");
+        names.add("Quiana");
+        names.add("Ellyn");
+        names.add("Garnet");
+        names.add("Hipolito");
+        names.add("Eugena");
+        names.add("Laveta");
+        names.add("Eunice");
+        names.add("Arnulfo");
+        names.add("Luz");
+        names.add("Ranee");
+        names.add("Adolfo");
+        names.add("Leola");
+        names.add("Miguel");
+        names.add("Jacque");
+        names.add("Aja");
+        names.add("Kelsie");
+        names.add("Pamula");
+        names.add("Marcus");
+
+        // test
+        System.out.printf("%s exists: %b.\n", "Ivy", names.exists("Ivy"));
+        System.out.printf("%s exists: %b.\n", "Mark", names.exists("Mark"));
+        System.out.printf("%s exists: %b.\n", "Pearl", names.exists("Pearl"));
+        System.out.printf("%s exists: %b.\n", "Georgette", names.exists("Georgette"));
+        System.out.printf("%s exists: %b.\n", "Simone", names.exists("Simone"));
+        System.out.printf("%s exists: %b.\n", "Bobby", names.exists("Bobby"));
+        System.out.printf("%s exists: %b.\n", "Roland", names.exists("Roland"));
+        System.out.printf("%s exists: %b.\n", "Agatha", names.exists("Agatha"));
+        System.out.printf("%s exists: %b.\n", "Luz", names.exists("Luz"));
+        System.out.printf("%s exists: %b.\n", "Herman", names.exists("Herman"));
+    }
+}
